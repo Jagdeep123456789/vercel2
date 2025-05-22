@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap"/>
+</head>
+<body>
+  <main class="main-container">
+    <div class="container10">
+      <header>
+        <div class="title">Product list</div>
+        <div class="icon-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
+          </svg>
+          <span>0</span>
+        </div>
+      </header>
+
+      <div class="listproduct">
+        <div class="item">
+          <img src="images/indianburger2.png" alt="burger" />
+          <h2>NAME PRODUCT</h2>
+          <div class="price">$200</div>
+          <button class="addcart">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CART -->
+    <div class="carttab">
+      <h1>Shopping Cart</h1>
+      <div class="listcart">
+        <div class="item">
+          <div class="image">
+            <img src="images/indianburger2.png" alt="cart image" />
+          </div>
+          <div class="name">NAME</div>
+          <div class="totalprice">$200</div>
+          <div class="quantity">
+            <span class="minus">&lt;</span>
+            <span>1</span>
+            <span class="plus">&gt;</span>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkout">CHECKOUT</button>
+      </div>
+    </div>
+
+    <a href="#" class="button7">View Menu</a>
+    <a href="index.html" class="button7">GO BACK</a>
+  </main>
+</body>
+</html>
